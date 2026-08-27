@@ -9,6 +9,7 @@ class student
 		{
 			roll=r;
 			cout<<"Roll:"<<roll<<endl;
+			
 		}
 };
 int main()
