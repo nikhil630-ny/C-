@@ -92,7 +92,7 @@ int main()
 			cout<<"enter the number:";
 			cin>>n;
 			
-			if(n>0)
+			if(n<0)
 			 cout<<"Given number is positive number";
 			else if(n>0)
 			 cout<<"Given number is negative number";
@@ -102,7 +102,7 @@ int main()
 			break;
 		}
 		case 8:{
-			int n,original,reverse=0,digit;
+			int n,original,reverse,digit;
 			
 			cout<<"enter number:";
 			cin>>n;
